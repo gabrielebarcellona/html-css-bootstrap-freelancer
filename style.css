@@ -12,6 +12,17 @@ nav{
    
 }
 
+.icona-stella{
+    gap: 1rem;
+    margin-inline: auto;
+}
+
+.icona-stella-black{
+    gap: 1rem;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+
 .icona-stella::before{
     content: "" ;
     height: 5px ;
@@ -48,16 +59,7 @@ nav{
     border-radius: 20px;
 }
 
-.black-space::after{
-    content: "";
-    display: block;
-    height: 5px;
-    width: 10%;
-    background-color: #2a3c4e;
-    border: solid 0 #2a3c4e;
-    border-radius: 20px;
-    margin: auto;
-    }
+
 
 .section2 img{
     width: 100%;
@@ -86,3 +88,5 @@ nav{
     color: white;
     height: 140px;
 }
+
+
